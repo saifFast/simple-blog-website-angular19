@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #e9ebee;
+  color: #1c1e21;
+}
+
+a {
+  text-decoration: none;
+  color: #1877f2; /* Facebook blue */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+

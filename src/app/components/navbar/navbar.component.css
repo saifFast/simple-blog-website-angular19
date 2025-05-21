@@ -1,0 +1,18 @@
+nav {
+  background-color: #1877f2;
+  padding: 12px 24px;
+  border-bottom: 1px solid #1877f2;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fdfeff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

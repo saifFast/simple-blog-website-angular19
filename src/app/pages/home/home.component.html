@@ -1,0 +1,6 @@
+<div class="container">
+  <div *ngFor="let post of posts" class="post-box">
+    <h2><a [routerLink]="['/post', post.id]">{{ post.title }}</a></h2>
+    <p>{{ post.content | slice: 0:200 }}...</p>
+  </div>
+</div>
